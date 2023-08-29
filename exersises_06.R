@@ -14,7 +14,7 @@ library("ggplot2")
 dataset <- diamonds # dataset
 
 ui <- fluidPage(
-  title = "Diamonds Explorer",
+  titlePanel("Diamonds Explorer"),
   fluidRow(
     column(6,
            plotOutput("plot1")
@@ -64,7 +64,7 @@ shinyApp(ui = ui, server = server)
 dataset <- diamonds
 
 ui <- fluidPage(
-  title = "Diamonds Explorer",
+  titlePanel("Diamonds Explorer"),
   fluidRow(
     column(6,
            plotOutput("plot1")
