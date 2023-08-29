@@ -7,7 +7,10 @@
 # So, I left minimal design of UI from the Mastering Shiny Solutions (2 plots x 2 controls)
 # and put it into ChatGPT. This is the first minimal version:
 
-library("shiny") # library
+# Libraries
+library("shiny")
+library("ggplot2")
+
 dataset <- diamonds # dataset
 
 ui <- fluidPage(
