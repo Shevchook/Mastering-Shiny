@@ -1,0 +1,21 @@
+/* Change background color of the app */
+  body {
+    background-color: #FF374B;
+  }
+
+/* Customize button styles */
+  .btn-primary {
+    background-color: #5D0404;
+      border-color: #5D5D04;
+  }
+
+/* Modify text input appearance */
+  .form-control {
+    border-radius: 8px;
+  }
+
+/* Adjust panel styles */
+  .panel {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
